@@ -14,13 +14,13 @@
 
  export default class extends Component {
 
-   static propTypes = {
-     renderChildren: PropTypes.func,
-     animateEnd: PropTypes.func,
-     curvature: PropTypes.number,
-     duration: PropTypes.number,
-     style: View.propTypes.style
-   }
+//    static propTypes = {
+//      renderChildren: PropTypes.func,
+//      animateEnd: PropTypes.func,
+//      curvature: PropTypes.number,
+//      duration: PropTypes.number,
+//      style: View.propTypes.style
+//    }
 
    static defaultProps = {
      curvature: .003,
